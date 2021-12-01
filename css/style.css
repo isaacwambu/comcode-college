@@ -81,6 +81,35 @@ footer{
 }
 
 
+        /* second section */
+.second{
+  height: 30rem
+}
+.Asection{
+  width: 70%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-image: url(/HomeImages/campgen.jpeg);
+  background-size: 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}   
+.Asection h2{
+  font-size: 400%;
+  padding-top: 7%;
+  padding-left: 40%;
+  color: #00bfff;
+}  
+.second p{
+  font-size: 120%;
+  padding: 5%;
+  padding-top: 2%;
+  /* color: #00bfff; */
+}   
+
+
             /* bottom */
 .fourth{
   width: 70%;
