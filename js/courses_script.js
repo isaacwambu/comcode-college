@@ -40,3 +40,19 @@ function setClickedArrowImage (id, value) {
             break;
     }
 }
+
+// This fun. will give us the id of the arrow based on the course list id we pass
+function getArrowId (id){
+    switch (id) {
+        case "microsoft_courses_list":
+            return "show_more_less_microsoft_courses";
+        case "intro_courses_list":
+            return "show_more_less_intro_courses";
+        case "networking_courses_list":
+            return "show_more_less_networking_courses";
+        case "coding_courses_list":
+            return "show_more_less_coding_courses";
+        default:
+            break;
+    }
+}
