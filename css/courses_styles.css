@@ -69,3 +69,13 @@
 .apply_btn:hover{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+#intro_course_3{
+    visibility: hidden;
+}
+
+/* For the arrow up/dowm iv */
+.show_more_less_img{
+    cursor: pointer;
+    padding: 5px;
+}
