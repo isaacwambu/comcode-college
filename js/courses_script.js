@@ -20,3 +20,23 @@ function getClickedArrow (id) {
             break;
     }
 }
+
+// This fun will set the var of the courseList visibility based on the value 
+function setClickedArrowImage (id, value) {
+    switch (id) {
+        case "microsoft_courses_list":
+            microsoftCourses_visible = value
+            return;
+        case "intro_courses_list":
+            introCourses_visible = value;
+            return;
+        case "networking_courses_list":
+            networkingCourses_visible = value;
+            return;
+        case "coding_courses_list":
+            codingCourses_visible = value;
+            return;
+        default:
+            break;
+    }
+}
