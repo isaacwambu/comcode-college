@@ -3,6 +3,7 @@ body{
   padding: 0;
 }
 
+/* Header-Navbar styling */
 nav h1{
   font-size: 300%;
   transform: translateY(-40%);
@@ -14,7 +15,7 @@ nav h1{
   display: flex;
   justify-content: space-evenly;
   float: right;
-  transform: translateY(-440%);
+  transform: translateY(-350%);
   font-weight: bold;
   font-size: 110%;
 }
@@ -35,7 +36,7 @@ nav h1{
 } */
 
 
-
+/* Footer styling */
 footer{
   display: flex;
   justify-content: space-around;
@@ -53,4 +54,16 @@ footer{
   padding-left: 3%;
   /* border-right: solid #fff; */
   /* height: 10%; */
+}
+
+
+
+
+/* sections styles */
+.first{
+  background-image: url(/HomeImages/college.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  margin-top: -4%;
 }
