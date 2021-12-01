@@ -4,6 +4,26 @@ let networkingCourses_visible = true;
 let introCourses_visible = true;
 
 
+function expandCollapseCategory (categoryId, image) {
+    $("#"+categoryId).slideToggle();
+    changeImage(image, categoryId)
+}
+
+function changeImage(img, elementId) {
+    const moreSrc = "images/round_expand_more_black_24dp.png"
+    const lessSrc = "images/round_expand_less_black_24dp.png"
+
+    var clickedArrowContentVisibility = getClickedArrow(elementId);
+    var getClickedArrowImageId = getArrowId(elementId)
+    if (clickedArrowContentVisibility) {
+        document.getElementById(getClickedArrowImageId).src = img.src.replace(lessSrc, moreSrc);
+        setClickedArrowImage(elementId, false)
+    }else{
+        document.getElementById(getClickedArrowImageId).src = img.src.replace(moreSrc, lessSrc);
+        setClickedArrowImage(elementId, true)
+    }
+}
+
 
 // This fun. will get us the visibility of course list, for the clicked arrow
 function getClickedArrow (id) {
