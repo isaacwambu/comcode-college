@@ -66,4 +66,22 @@ footer{
   background-repeat: no-repeat;
   height: 50rem;
   margin-top: -4%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* line-height: .5%; */
+}
+
+.head{
+  margin-left: 25%;
+  padding-top: 20%;
+  line-height: 1%;
+  color: #00bfff;
+}
+.head h1{
+  font-size: 1000%;
+}
+.head h2{
+  font-size: 500%;
 }
