@@ -15,3 +15,22 @@ body {
     display: flex;
     text-emphasis-color: white;
   }
+  .home-text {
+    float: left;
+  }
+  
+  .our-software {
+    position: relative;
+    float: right;
+  }
+  .col-md-6 {
+    background-color: #00bfff;
+    text-emphasis-color: white;
+    color: white;
+  }
+  h4 {
+    color: #00bfff;
+  }
+  .home-text {
+    color: black;
+  }
