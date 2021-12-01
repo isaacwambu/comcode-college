@@ -5,6 +5,7 @@ let introCourses_visible = true;
 
 
 function expandCollapseCategory (categoryId, image) {
+    // document.getElementById(elementId).slideToggle()
     $("#"+categoryId).slideToggle();
     changeImage(image, categoryId)
 }
