@@ -25,6 +25,10 @@ function changeImage(img, elementId) {
     }
 }
 
+function navigate(){
+    window.location.href="../apply.html"
+}
+
 
 // This fun. will get us the visibility of course list, for the clicked arrow
 function getClickedArrow (id) {

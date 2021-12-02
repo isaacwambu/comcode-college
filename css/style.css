@@ -2,35 +2,40 @@ body{
   margin: 0;
   padding: 0;
 }
-
-/* Header-Navbar styling */
 nav h1{
   font-size: 300%;
   transform: translateY(-40%);
   margin-left: 2%;
   color: #00bfff;
 }
+nav{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
 .links{
   width: 30%;
   display: flex;
   justify-content: space-evenly;
   float: right;
-  transform: translateY(-350%);
+  transform: translateY(-440%);
   font-weight: bold;
   font-size: 110%;
 }
+
 .links a{
   text-decoration: none;
   padding: 1%;
   font-size: 110%;  
   color: #000;
 }
+
 .links a:hover{
   color: #fff;
   background-color: #00bfff;
   background-size: 100%;
-  
 }
+
 /* .links a:current{
   text-decoration: underline ;
 } */
