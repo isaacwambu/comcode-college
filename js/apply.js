@@ -20,7 +20,7 @@ function runLog(){
    for(i=0; i<objPeople.length; i++){
        if(username == objPeople[i].username && password == objPeople[i].password)
        {
-           alert(username+ " is logged in");
+           
            window.open("portal.html"); 
            return
        }
