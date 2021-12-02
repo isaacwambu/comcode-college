@@ -4,6 +4,9 @@ nav h1{
     margin-left: 2%;
     color: #00bfff;
 }
+nav{
+    margin-top: 100px;
+}
 
 .links{
     width: 30%;
