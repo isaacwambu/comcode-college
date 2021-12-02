@@ -1,5 +1,5 @@
 # ComCode College
-#### This is a website for the ComCode college that they use for giving interested parties more info about them 12/2/2021
+#### This is a website for the ComCode college that they use for giving interested parties more info about them - 12/2/2021
 #### By **Kennjr**
 ## Description
 This is a simple website made for ComCode college used by interested students to get information about the college's facilities, services and courses that they offer and apply if they'd like to join the college.
