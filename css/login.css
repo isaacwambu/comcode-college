@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #00bfff;
+    width: 40%;
+    height: 48vh;
+    margin-top: 10%;
+    border-radius: 7px;
+}
+.log{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: bold;
+}
+.container label{
+    color: white;
+    font-size: 2rem;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.container input{
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.container h6{
+    color: white;
+    margin-left: 37%;
+    margin-top:2%;
+}
+.container h5{
+    color: white;
+    margin-left: 40%;
+    margin-top:5%;
+}
+.send{
+    color: #00bfff;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 0.5%;
+    float: right;
+    border: none;
+    font-weight: bold;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
