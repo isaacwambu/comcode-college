@@ -65,7 +65,7 @@ footer{
 
             /* header */
 .first{
-  background-image: url("/HomeImages/college.jpg");
+  background-image: url("../HomeImages/college.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 50rem;
@@ -96,7 +96,7 @@ footer{
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
-  background-image: url("/HomeImages/campgen.jpeg");
+  background-image: url("../HomeImages/campgen.jpeg");
   background-size: 100%;
   background-position: center;
   /* background-repeat: no-repeat; */
