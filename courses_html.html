@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/courses_styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha384-S58meLBGKxIiQmJ/pJ8ilvFUcGcqgla+mWH9EEKGm6i6rKxSTA2kpXJQJ8n7XK4w" crossorigin="anonymous"></script>
+    <script src="js/courses_script.js"></script>
+    <title>Courses</title>
+</head>
+<body>
+    <nav>
+        <h1>ComCode</h1>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="courses_html.html">Courses</a>
+          <a href="">Facilities</a>
+          <a href="login.html">Students</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="microsoft_courses_container">
+            <div class="courses_nav" id="microsoft_courses_nav">
+                <h3 class="courses_header_txt">Microsoft Courses</h3>
+                <img id="show_more_less_microsoft_courses" class="show_more_less_img" src="images/round_expand_less_black_24dp.png" alt="Expand or collapse microsoft courses content" width="35px" height="35px" onclick="expandCollapseCategory('microsoft_courses_list', this)">
+            </div>
+            <div class="courses_list" id="microsoft_courses_list">
+                <div class="course_item" id="microsoft_course_1">
+                    <h4>Microsoft Excel</h4>
+                    <p>Microsoft Excel 2016 is the powerful spreadsheet application in the Office suite. It seems every organization, large and small, uses Excel to organize and analyze data. We begin with basic skills such as navigating the interface, identifying items in a spreadsheet, selecting cells, and inputting data. This course also covers formatting text and numbers, modifying a worksheet layout, printing and page layout, and managing worksheets in a workbook.</p>
+                    <div class="apply_btn_container">
+                        <p class="apply_btn" onclick="navigate()">Apply</p>
+                    </div>
+                </div>
+                <div class="course_item" id="microsoft_course_2">
+                    <h4>Microsoft Word</h4>
+                    <p>This course provides students with the knowledge and skills that are needed to use Microsoft Word. As one of the cornerstones of the Office suite, Word is a powerful word processor that allows users to create both simple and sophisticated documents. This series explores the essentials to getting started with MS Word. We begin with basic skills exploring all aspects of character and paragraph formatting and progress to more advanced MS Word skills.</p>
+                    <div class="apply_btn_container">
+                        <p class="apply_btn" onclick="navigate()">Apply</p>
+                    </div>
+                </div>
+                <div class="course_item" id="microsoft_course_3">
+                    <h4>Microsoft Access</h4>
+                    <p>This course provides students with the knowledge and skills that are needed to use the Microsoft Access. Microsoft Access is now much more than a way to create desktop databases. It's an easy to use tool for quickly creating browser based database applications that help you run your business. Your data is automatically stored in a SQL database, so it's more secure and scalable than ever, and you can easily share your applications with colleagues.</p>
+                    <div class="apply_btn_container">
+                        <p class="apply_btn" onclick="navigate()">Apply</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="courses_nav" id="intro_courses_nav">
+            <h3 class="courses_header_txt">Introductory Courses</h3>
+            <img id="show_more_less_intro_courses" class="show_more_less_img" src="images/round_expand_less_black_24dp.png" alt="Expand or collapse introductory courses content" width="35px" height="35px" onclick="expandCollapseCategory('intro_courses_list', this)">
+        </div>
+        <div class="courses_list" id="intro_courses_list">
+            <div class="course_item" id="intro_course_1">
+                <h4>Introduction to Computers</h4>
+                <p>This is a very basic intro course meant for students who don't know how to use a computer. In this course students will learn how to boot a computer, configure it and customise it to their liking. By the end of the course a student should be able to comfortably use a computer to perform some basic tasks like browsing the web.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="intro_course_2">
+                <h4>Introduction to Programming</h4>
+                <p>This is a course that introduces a student to programming and its concepts.In this course a student will learn how to use the command prompt (as every programmer does), how to use markdown to write basic readme files that give other programmers more info about a project, how to use git and gitlab for collaboration.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="intro_course_3">
+                <h4>Microsoft Word</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iste quia possimus doloribus, fuga consequatur repellendus architecto aperiam rem consequuntur quo quam provident eius adipisci unde necessitatibus dolore incidunt sed?</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="courses_nav" id="networking_courses_nav">
+            <h3 class="courses_header_txt">Networking Courses</h3>
+            <img id="show_more_less_networking_courses" class="show_more_less_img" src="images/round_expand_less_black_24dp.png" alt="Expand or collapse networking courses content" width="35px" height="35px" onclick="expandCollapseCategory('networking_courses_list', this)">
+        </div>
+        <div class="courses_list" id="networking_courses_list">
+            <div class="course_item" id="networking_course_1">
+                <h4>CCNA</h4>
+                <p>Cisco Certified Network Associate CCNA training course provides students with the knowledge and skills that are needed to install, configure, operate, and troubleshoot medium-size routed and switched networks, including implementation and verification of connections to remote sites in a WAN.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="networking_course_2">
+                <h4>CCNP</h4>
+                <p>Cisco Certified Network Professional (CCNP) certification online course provides students with the knowledge and skills that are needed to install, configure and troubleshoot converged local and wide area networks with 100 to 500 or more nodes. Students learn to manage Cisco routers and switches.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="networking_course_3">
+                <h4>Cisco TSHOOT</h4>
+                <p>Troubleshooting and Maintaining Cisco IP Networks course provides full coverage of the knowledge and skills required to plan and perform regular maintenance on complex enterprise routed and switched networks and use technology-based practices and a systematic ITIL-compliant approach to perform network troubleshooting.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="courses_nav" id="coding_courses_nav">
+            <h3 class="courses_header_txt">Programming Courses</h3>
+            <img id="show_more_less_coding_courses" class="show_more_less_img" src="images/round_expand_less_black_24dp.png" alt="Expand or collapse coding courses content" width="35px" height="35px" onclick="expandCollapseCategory('coding_courses_list', this)">
+        </div>
+        <div class="courses_list" id="coding_courses_list">
+            <div class="course_item" id="coding_course_1">
+                <h4>HTML & CSS programming</h4>
+                <p>This is a programming course where students will learn how to make a visual website. They will learn how to write html and css code which is used in front-end development. We recommend that they take a course on javascript for them to be fully equipped for front-end web development.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="coding_course_2">
+                <h4>Python programming</h4>
+                <p>Python is a very versatile coding language, it can be used for web development, data science and machine learning or back-end development. In this course students learn how to use pyhton to make simple web applications and programmes that solve everyday problems.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+            <div class="course_item" id="coding_course_3">
+                <h4>Java programming</h4>
+                <p>Java is a programming language used by more than a million developers around the world. Java is used by banks in their back-end systems, by android developers for the business logic of their apps and by some back-end developers. Students will learn how to code in java.</p>
+                <div class="apply_btn_container">
+                    <p class="apply_btn" onclick="navigate()">Apply</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<footer>
+    <div class="foot1">
+      <p>Phone : +254-789-456-231</p>
+      <p>Address : 50 Westlands, Nairobi</p>
+      <p>Email : info@comcode.com</p>
+      <p>Copyright 2021</p>
+    </div>
+
+    <!-- <div class="line">
+
+    </div> -->
+
+    <div class="foot2">
+      <p>Phone : +254-789-456-232</p>
+      <p>Address : 32 Lavington, Nairobi</p>
+      <p>Email : info@comcode.com</p>
+      <p>Copyright 2021</p>
+    </div>
+
+    <!-- <div class="line">
+
+    </div> -->
+    
+    <div class="foot3">
+      <p>Phone : +254-789-456-233</p>
+      <p>Address : 16 Hurlingham, Nairobi</p>
+      <p>Email : info@comcode.com</p>
+      <p>Copyright 2021</p>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav h1{
+  font-size: 300%;
+  transform: translateY(-40%);
+  margin-left: 2%;
+  color: #00bfff;
+}
+nav{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.links{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  transform: translateY(-440%);
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.links a{
+  text-decoration: none;
+  padding: 1%;
+  font-size: 110%;  
+  color: #000;
+}
+
+.links a:hover{
+  color: #fff;
+  background-color: #00bfff;
+  background-size: 100%;
+}
+
+/* .links a:current{
+  text-decoration: underline ;
+} */
+
+
+/* Footer styling */
+footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 20%;
+  background-color: #00bfff;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.foot1{
+  padding-left: 3%;
+}
+
+
+
+
+        /* sections styles */
+
+            /* header */
+.first{
+  background-image: url(/HomeImages/college.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  margin-top: -4%;
+}
+
+.head{
+  margin-left: 25%;
+  padding-top: 20%;
+  line-height: 1%;
+  color: #00bfff;
+}
+.head h1{
+  font-size: 1000%;
+}
+.head h2{
+  font-size: 500%;
+}
+
+
+        /* second section */
+.second{
+  height: 30rem
+}
+.Asection{
+  width: 70%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  background-image: url(/HomeImages/campgen.jpeg);
+  background-size: 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}   
+.Asection h2{
+  font-size: 400%;
+  padding-top: 7%;
+  padding-left: 40%;
+  color: #00bfff;
+}  
+.second p{
+  text-align: center;
+  font-size: 120%;
+  padding: 5%;
+  padding-top: 2%;
+  padding-left: 15%;
+  width: 70%;
+  /* color: #00bfff; */
+}   
+
+
+/* third section */
+.third{
+  background-color: #00bfff;
+}
+.third h1{
+  padding-top: 5%;
+  padding-bottom: 1%;
+  padding-left: 40%;
+  font-size: 300%;
+}
+.campus{
+  display: flex;
+  align-items: space-around;
+  margin-left: 10%;
+}
+.third p{
+  width: 70%;
+  font-size: 110%;
+  text-align: center;
+}
+.third h2{
+  text-align: center;
+}
+
+
+            /* bottom */
+.fourth{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.fourth p{
+  width: 30%;
+  padding-top: 5%;
+  font-size: 130%;
+  color: #00bfff;
+}
