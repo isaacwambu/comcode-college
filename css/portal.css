@@ -79,6 +79,7 @@ nav h1{
     border-radius: 5px;
 }
 .welcome{
+  width: 60%;
     background-color: white;
     height: 60vh;
     margin-top: 2%;
